@@ -1,8 +1,9 @@
 # Bionic Hand Project
 
+I have always been fascinated by robots that mimic human forms, so it's natural that I became increasingly interested in robotic prosthetics. With this in mind, I decided to try building my own prosthetic hand using inexpensive parts.
+
 In 2020, I designed and built a bionic hand using only a 3d printer, my computer, and some inexpensive parts I found online. This project was one of the first major projects I completed on my own. At the time, I was in the early stages of my coding and 3d printing journey, as I was only 14 and a half years old.
 
-I have always been fascinated by robots that mimic human forms, so it's natural that I became increasingly interested in robotic prosthetics. With this in mind, I decided to try building my own prosthetic hand using inexpensive parts.
 
 ![movenew](https://user-images.githubusercontent.com/121691820/210184564-28e1c96d-014e-40ca-a047-c6933a35255d.gif)
 
@@ -14,6 +15,9 @@ The hand consists of three main parts: the palm, fingers, and forearm. These par
 This design utilizes a single servo motor, as opposed to other designs that require five, in order to reduce costs and make the building process more accessible for consumers. The design is also mirrored, allowing for the creation of left or right versions by mirroring it in a 3D slicer.
 
 The forearm features an attachment slit at the bottom, which can be used to mount the hand on a socket or sleeve for use as a prosthetic.
+
+![hand](https://user-images.githubusercontent.com/121691820/210185222-33e2f50a-e0a5-4ee8-b3a2-27238905182e.png)
+
 
 Electroincs
 -----
@@ -48,7 +52,7 @@ Next, we will secure the fingers to the palm using the two wider holes on both t
 
 We are now halfway through the build. Let's move on to the electronics and wire the Arduino to the servo and sensor according to the diagram provided below:
 
-
+![layout](https://user-images.githubusercontent.com/121691820/210185000-002c0054-50e6-4ce8-a569-6b7c8c2c5186.png)
 
 Now, we can mount the servo onto the forearm using the screws that came with it. The Arduino can be placed either behind or below the servo, depending on your preference.
 
